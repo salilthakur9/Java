@@ -124,3 +124,46 @@ class Main{
 
     }
 }*/
+
+
+
+/*import java.util.Scanner;
+class Bank{
+    Scanner sc=new Scanner(System.in);
+    int balance;
+
+    void deposit(){
+        int value=sc.nextInt();
+        balance+=value;
+        System.out.println(balance);
+    }
+
+    void withdraw(){
+        int value=sc.nextInt();
+        balance-=value;
+        System.out.println(balance);
+    }
+
+    void check(){
+        System.out.println(balance);
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int bal=1000;
+        Bank b=new Bank();
+        b.balance=bal;
+
+        while(true){
+            System.out.println("choose: 1->check 2->deposit 3->withdraw 0->exit:");
+            int choice=sc.nextInt();
+            if(choice==0)break;
+            else if(choice==1)b.check();
+            else if(choice==2)b.deposit();
+            else if(choice==3)b.withdraw();
+            else{System.out.println("invalid input!!");}
+        }
+    }
+}*/
