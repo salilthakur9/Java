@@ -126,3 +126,59 @@ class Practice{
         e2.calculate();
     }
 }*/
+
+
+
+/*import java.util.ArrayList;
+class Book{
+    int id;
+    String name;
+    boolean isIssued;
+
+    Book(int id, String name){
+        this.id=id;
+        this.name=name;
+        this.isIssued=false;
+    }
+
+    void display(){
+        System.out.println("id: "+id+", name: "+name+", isIssued: "+isIssued);
+    }
+}
+
+class Library{
+    ArrayList<Book> books=new ArrayList<>();
+
+    void addBook(Book b){
+        books.add(b);
+    }
+
+    void issue(int id){
+        for(Book b:books){
+            if(b.id==id && !b.isIssued){
+                b.isIssued=true;
+                System.out.println("Book issued of id: "+b.id);
+            }
+        }
+    }
+
+    void display(){
+        for(Book b:books){
+            b.display();
+        }
+    }
+}
+
+class Practice{
+    public static void main(String args[]){
+        Library l=new Library();
+
+        l.addBook(new Book(1, "book1"));
+        l.addBook(new Book(2, "book2"));
+        l.addBook(new Book(3, "book3"));
+
+        l.issue(2);
+        l.issue(2);
+        l.display();
+    }
+}*/
