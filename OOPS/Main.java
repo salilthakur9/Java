@@ -167,3 +167,32 @@ class Main{
         }
     }
 }*/
+
+
+
+/*class Balance{
+    private double balance;
+
+    void deposit(double amount){
+        if(amount>0){
+            balance+=amount;
+            System.out.println(balance);
+        }else if(amount<0){
+            balance+=amount;
+            System.out.println(balance);
+        }
+    }
+
+    double getter(){
+        return balance;
+    }
+}
+class Main{
+    public static void main(String args[]){
+        Balance b=new Balance();
+        b.deposit(1000);
+        b.deposit(-500);
+        b.deposit(0);
+        System.out.println("get: "+b.getter());
+    }
+}*/
