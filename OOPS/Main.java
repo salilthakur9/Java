@@ -196,3 +196,32 @@ class Main{
         System.out.println("get: "+b.getter());
     }
 }*/
+
+
+
+/*import java.util.Scanner;
+class Student{
+    String name;
+    int age;
+
+    Student(String n, int a){
+        this.name=n;
+        this.age=a;
+    }
+
+    void display(){
+        System.out.println(name);
+        System.out.println(age);
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        String name=sc.nextLine();
+        int age=sc.nextInt();
+
+        Student s=new Student(name, age);
+        s.display();
+    }
+}*/
