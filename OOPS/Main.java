@@ -225,3 +225,42 @@ class Main{
         s.display();
     }
 }*/
+
+
+
+/*class Book{
+    String name;
+    int price;
+
+    Book(){
+        name="book1";
+        price=1000;
+    }
+
+    Book(int p){
+        this.price=p;
+        name="book1";
+    }
+
+    Book(String n, int p){
+        this.name=n;
+        this.price=p;
+    }
+
+    void display(){
+        System.out.println("name: "+name);
+        System.out.println("price: "+price);
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        Book b1=new Book();
+        Book b2=new Book(5000);
+        Book b3=new Book("BOOK", 500);
+
+        b1.display();
+        b2.display();
+        b3.display();
+    }
+}*/
