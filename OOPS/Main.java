@@ -76,3 +76,26 @@ class Main{
         System.out.println(s1.equals(s2));
     }
 }*/
+
+
+
+/*class Employee{
+    int id;
+    String name;
+    int salary;
+
+    void display(){
+        System.out.println(id);
+        System.out.println(name);
+        System.out.println(salary);
+    }
+}
+class Main{
+    public static void main(String args[]){
+        Employee e=new Employee();
+        e.id=877;
+        e.name="Salil";
+        e.salary=40000;
+        e.display();
+    }
+}*/
