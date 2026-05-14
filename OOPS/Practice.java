@@ -35,3 +35,46 @@ class Practice {
         System.out.println("final count: "+ Student.count);
     }
 }*/
+
+
+
+/*class Bank{
+    private double balance;
+
+    Bank(double balance){
+        this.balance=balance;
+    }
+
+    void deposit(double amount){
+        if(amount>0){
+            balance+=amount;
+            System.out.println("deposited!!");
+        }else{
+            System.out.println("invalid input!!");
+        }
+    }
+
+    void withdraw(double amount){
+        if(amount>0 && amount<balance){
+            balance-=amount;
+            System.out.println("withdrawn!!");
+        }else{
+            System.out.println("invalid input!!");
+        }
+    }
+
+    double get_balance(){
+        return balance;
+    }
+}
+
+class Practice{
+    public static void main(String args[]){
+        Bank b=new Bank(999.99);
+
+        b.deposit(0.1);
+        b.withdraw(0.09);
+
+        System.out.println(b.get_balance());
+    }
+}*/
