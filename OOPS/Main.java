@@ -264,3 +264,32 @@ class Main{
         b3.display();
     }
 }*/
+
+
+
+/*class Student{
+    String name;
+    int age;
+
+    Student(){
+        this("salil", 21);
+        System.out.println("Default");
+    }
+
+    Student(String n, int a){
+        this.name=n;
+        this.age=a;
+        System.out.println("parameter");
+    }
+
+    void display(){
+        System.out.println(name+" "+age);
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        Student s=new Student();
+        s.display();
+    }
+}*/
