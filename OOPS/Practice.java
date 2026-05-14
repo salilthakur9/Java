@@ -78,3 +78,51 @@ class Practice{
         System.out.println(b.get_balance());
     }
 }*/
+
+
+
+/*abstract class Employee{
+    protected String name;
+    protected double salary;
+
+    Employee(String name, double salary){
+        this.name=name;
+        this.salary=salary;
+    }
+
+    abstract void calculate();
+}
+class Developer extends Employee{
+
+    Developer(String name, double salary){
+        super(name, salary);
+    }
+
+    @Override
+    void calculate(){
+        salary+=20000;
+        System.out.println("Developer complete salary after bonus is: "+ salary);
+    }
+}
+class Manager extends Employee{
+
+    Manager(String name, double salary){
+        super(name, salary);
+    }
+
+    @Override
+    void calculate(){
+        salary+=40000;
+        System.out.println("Manager salary after adding bonus: "+salary);
+    }
+}
+
+class Practice{
+    public static void main(String args[]){
+        Employee e1=new Developer("Salil", 50000); 
+        Employee e2=new Manager("Thakur", 60000); 
+
+        e1.calculate();
+        e2.calculate();
+    }
+}*/
