@@ -182,3 +182,44 @@ class Practice{
         l.display();
     }
 }*/
+
+
+
+/*abstract class Account{
+    protected double balance;
+
+    Account(double balance){
+        this.balance=balance;
+    }
+
+    abstract void withdraw(double amount);
+
+    void display(){
+        System.out.println(balance);
+    }
+}
+class Savings extends Account{
+    Savings(double balance){
+        super(balance);
+    }
+
+    @Override
+    void withdraw(double amount){
+        if(amount<balance){
+            balance-=amount;
+            System.out.println("withdraw successful");
+        }else{
+            System.out.println("invalid amount");
+        }
+    }
+}
+
+class Practice{
+    public static void main(String args[]){
+        Account a=new Savings(1000);
+
+        a.display();
+        a.withdraw(500);
+        a.display();
+    }
+}*/
