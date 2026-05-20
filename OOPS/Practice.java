@@ -253,3 +253,41 @@ class Practice{
         s.perimeter();
     }
 }*/
+
+
+
+interface pay{
+    void paid();
+}
+class Gpay implements pay{
+    double amount;
+
+    public Gpay(double amount){
+        this.amount=amount;
+    }
+    @Override
+    public void paid(){
+        System.out.println(amount+" paid by Gpay!");
+    }
+}
+class Phonepay implements pay{
+    double amount;
+
+    public Phonepay(double amount){
+        this.amount=amount;
+    }
+    @Override
+    public void paid(){
+        System.out.println(amount+" paid by Phonepay!");
+    }
+}
+
+class Practice{
+    public static void main(String args[]){
+        Gpay g=new Gpay(100);
+        Phonepay p=new Phonepay(200);
+
+        g.paid();
+        p.paid();
+    }
+}
